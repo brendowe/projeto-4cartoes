@@ -1,0 +1,73 @@
+@charset "UTF_8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    --fonte1: 'Poppins', sans-serif;
+}
+
+#container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: var(--fonte1);
+    color: hsl(229, 6%, 66%);
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: hsl(234, 12%, 34%);
+}
+
+#container > p {
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+
+#cartoes p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+#cartoes {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.cartoes {
+    border-top: 05px solid;
+    border-radius: 5%;
+    width: 250px;
+    text-align: left;
+    padding: 5px 30px;
+    padding-bottom: 30px;
+    margin: 10px;
+    box-shadow: 0px 1px 7px  hsl(229, 6%, 66%);
+}
+
+#cartao1 {
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+#cartao2 {
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+#cartao3 {
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+#cartao4 {
+    border-top-color: hsl(212, 86%, 64%);
+}
+
+img {
+    float: right;
+}
